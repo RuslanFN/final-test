@@ -57,6 +57,7 @@ public class FinalTest {
     }
     public static String ansUser(Scanner in){
         System.out.println("Введите параметры фильтрации в формате: ПАРАМЕТР ОТ ДО");
+        System.out.println("Введите «стоп» для завершения, введите «исходный» для возврата к исходному множеству");
         System.out.println("1 " + categories.get(1));
         System.out.println("2 " + categories.get(2));
         System.out.println("3 " + categories.get(3));
